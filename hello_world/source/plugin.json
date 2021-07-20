@@ -4,6 +4,7 @@
         "plugin_author": {
                     "name": "Des",
                     "website": "https://claython.com"},
+                    
         "plugin_items": [
                     {"item_name": "Hello World",
                     "item_description": "Demo Hello World plugin for testing",
@@ -23,14 +24,15 @@
                     "item_add_to_shelf": "True",
                     "item_plugin_type": "menu_item"}
                     ],
+
         "plugin_release_version": "1.0",
         "plugin_description": "A simple Hello world example on the shelf",
         "plugin_category" : "Tools",
         "plugin_group" : "essentials",
         "plugin_tags" : ["tags", "colors", "blues"],
         "plugin_source_uri" : "https://something.github.content.com/plugins/hello_world",
-        "plugin_excluded_versions": ["4", "5.0 SP1"],
-        "plugin_for_app" : "Clarisse",
+        "plugin_excluded_versions": ["4.0 SP3", "5.0 SP1"],
+        "plugin_for_app" : ["Clarisse"],
         "plugin_type": "python"
     }
 }
