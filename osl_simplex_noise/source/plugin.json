@@ -1,0 +1,27 @@
+{ "plugin": 
+    {
+        "plugin_package_name": "osl simplex noise",
+        "plugin_author": {
+                    "name": "Des",
+                    "website": "https://claython.com"},
+                    
+        "plugin_items": [
+                    {"item_name": "Osl Simple Noise",
+                    "item_description": "Demo Hello World plugin for testing",
+                    "item_file": "osl_simplex_noise.py", 
+                    "item_plugin_type": "osl_item"}
+                    ],
+
+        "plugin_release_version": "1.0",
+        "plugin_description": "A simple simplex noise",
+        "plugin_category" : "OSL",
+        "plugin_group" : "essentials",
+        "plugin_tags" : ["tags", "colors", "blues"],
+        "plugin_source_uri" : "https://something.github.content.com/plugins/hello_world",
+        "plugin_for_app": [
+                    {"name" : "Clarisse", "excluded_versions": ["4.0 SP5"]},
+                    {"name": "Builder", "excluded_versions": ["4.0 SP2"]}
+                    ],
+        "plugin_type": "osl"
+    }
+}
