@@ -1,0 +1,39 @@
+{
+  "package": {
+    "plugin_author": {
+      "name": "des",
+      "website": "https://claython.com"
+    },
+    "plugin_category": "Essentials",
+    "plugin_description": "Demo plugin package",
+    "plugin_for_app": [
+      {
+        "excluded_versions": [
+          "4.0 SP5"
+        ],
+        "name": "Clarisse"
+      }
+    ],
+    "plugin_group": "Essentials",
+    "plugin_items": [
+      {
+        "item_add_to_menu": "False",
+        "item_add_to_shelf": "True",
+        "item_add_to_startup": "False",
+        "item_description": "Demo Hello World plugin for testing",
+        "item_file": "hello_world.py",
+        "item_icon": "icon.png",
+        "item_name": "Hello World",
+        "item_plugin_type": "shelf_item"
+      }
+    ],
+    "plugin_package_name": "hello_world",
+    "plugin_release_version": "1.0",
+    "plugin_source_uri": "raw.gh.com/file",
+    "plugin_tags": [
+      "user",
+      "demo"
+    ],
+    "plugin_type": "python"
+  }
+}
